@@ -1,14 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-//solution [how to think]
 
-//first find where the owner variable is set 
-// to set the owner = msg.sender ; we have to call the contribute function 
-//after calling and sending some value greater than 0 we will have to call receive function 
-//and , for that we have to do low level transaction , after successful execution of the transaction 
-//we will be the owner 
-//and then we will call the withdraw function and will withdraw all the ether 
+//CHALLENGE---------------------------
+//make yourself the owner 
+// make the account balance equals to 0 
+//-------------------------------------
+
+
 
 
 contract Fallback {
